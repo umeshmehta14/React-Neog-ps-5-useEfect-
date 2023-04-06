@@ -68,7 +68,7 @@ const Question7 = () => {
         {
             userDetails.map(({name, text}, index)=>{
                 return <div>
-                    <h3>{name}</h3>
+                    <h3>{name}{" "}</h3>
                     <p>{text}</p>
                     <button onClick={()=>HandleDelete(index)}>Delete</button>
                 </div>
